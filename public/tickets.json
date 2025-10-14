@@ -1,0 +1,93 @@
+[
+  {
+    "id": "TICK-001",
+    "title": "Unable to login to account",
+    "description": "Customer reports login failing with 'invalid credentials' even after password reset link used.",
+    "customer": "Aisha Rahman",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-10-10T09:14:00Z"
+  },
+  {
+    "id": "TICK-002",
+    "title": "Payment failed at checkout",
+    "description": "Transaction hangs at processing step; card is charged but order not created.",
+    "customer": "Jamal Khan",
+    "priority": "Urgent",
+    "status": "Open",
+    "createdAt": "2025-10-12T14:47:00Z"
+  },
+  {
+    "id": "TICK-003",
+    "title": "Request for invoice correction",
+    "description": "Invoice #INV-2025-089 shows incorrect VAT amount; customer requests correction and reissue.",
+    "customer": "Sadia Noor",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-09-29T08:05:00Z"
+  },
+  {
+    "id": "TICK-004",
+    "title": "Mobile app crash on startup",
+    "description": "App crashes immediately on launch for several Android 12 devices.",
+    "customer": "Farhan Ali",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-10-01T21:30:00Z"
+  },
+  {
+    "id": "TICK-005",
+    "title": "Feature request: export CSV",
+    "description": "Customer requests ability to export ticket lists to CSV with custom columns.",
+    "customer": "Rina Chowdhury",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-08-15T11:20:00Z"
+  },
+  {
+    "id": "TICK-006",
+    "title": "Reset two-factor authentication",
+    "description": "Customer lost access to authenticator app and needs 2FA reset after identity verification.",
+    "customer": "Md. Saif",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-10-11T06:55:00Z"
+  },
+  {
+    "id": "TICK-007",
+    "title": "Slow page load on dashboard",
+    "description": "Dashboard page takes over 12s to load when filtering by date range.",
+    "customer": "Nazia Begum",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-18T16:40:00Z"
+  },
+  {
+    "id": "TICK-008",
+    "title": "Email notifications not received",
+    "description": "Customer stopped receiving ticket-update emails since last week; SMTP appears configured.",
+    "customer": "Tariq Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-10-05T10:02:00Z"
+  },
+  {
+    "id": "TICK-009",
+    "title": "Unable to upload attachments",
+    "description": "Attachments larger than 2MB fail with 'upload error' even though limit is 10MB.",
+    "customer": "Lina Karim",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-10-07T13:15:00Z"
+  },
+  {
+    "id": "TICK-010",
+    "title": "Account cancellation request",
+    "description": "Customer requests immediate account cancellation and data export before closing.",
+    "customer": "Rafiq Uddin",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-05T09:00:00Z"
+  }
+  
+]
