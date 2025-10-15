@@ -2,7 +2,7 @@ import React from 'react';
 import bannerImg1 from '../../assets/vector1.png';
 import bannerImg2 from '../../assets/vector2.png';
 
-const Banner = () => {
+const Banner = ({inProgressCount = 0, resolvedCount = 0}) => {
   return (
     <section className="px-9 py-20">
       <div className="w-full flex flex-col md:flex-row gap-6">
@@ -19,7 +19,7 @@ const Banner = () => {
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
 
             <div className="text-lg font-medium">In-Progress</div>
-            <div className="text-3xl font-bold">0</div>
+            <div className="text-3xl font-bold">{inProgressCount}</div>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const Banner = () => {
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
 
             <div className="text-lg font-medium">Resolved</div>
-            <div className="text-3xl font-bold">0</div>
+            <div className="text-3xl font-bold">{resolvedCount}</div>
           </div>
         </div>
 
